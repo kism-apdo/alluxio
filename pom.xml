@@ -1539,7 +1539,13 @@
     </profile>
     <profile>
       <id>release</id>
+        <properties>
+  <sonar.organization>kism-apdo</sonar.organization>
+  <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+</properties>
       <properties>
+          
+          
         <!--
             The maven shade plugin has a bug where enabling the `createDependencyReducedPom`
             property causes maven to go into an infinite loop (MSHADE-148). This is only an
