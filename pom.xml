@@ -1542,10 +1542,7 @@
     </profile>
     <profile>
       <id>release</id>
-        <properties>
-  <sonar.organization>kism-apdo</sonar.organization>
-  <sonar.host.url>https://sonarcloud.io</sonar.host.url>
-</properties>
+  
       <properties>
           
           
